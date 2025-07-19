@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.menu-open {
+  animation: slideDown 0.3s forwards;
+}
+.ant-float-btn-body {
+  background-color: #70e66a !important;
+}

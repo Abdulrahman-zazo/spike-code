@@ -1,0 +1,64 @@
+.menu-open {
+  animation: slideDown 0.3s forwards;
+}
+.ant-float-btn-body {
+  background-color: #70e66a !important;
+}
+
+/* Add more classes for the different font weights */
+.italicx {
+  font-style: italic;
+  color: rgb(63, 63, 63);
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+.animate-spin-slow1 {
+  animation: spin-slow 4s linear infinite;
+}
+.animate-spin-slow2 {
+  animation: spin-slow 5s linear infinite;
+}
+.animate-spin-slow3 {
+  animation: spin-slow 8s linear infinite;
+}
+.animate-spin-slow4 {
+  animation: spin-slow 6s linear infinite;
+  animation-delay: 0.8s;
+}
+
+@media screen and (max-width: 600px) {
+  .spike {
+    font-size: 150px;
+    bottom: -20px;
+  }
+}
+
+body,
+html,
+:host {
+  vertical-align: middle;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  /* خاصية لـ Safari 3+ */
+  user-select: none; /* الخاصية القياسية */ /* الخاصية القياسية */
+}
+
+@keyframes animate-x-mark {
+  0% {
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0;
+  }
+}

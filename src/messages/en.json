@@ -1,0 +1,345 @@
+{
+  "direction": "ltr",
+  "web-site": {
+    "title": "SpikeCode",
+    "description": "Modern software company || Crafting Innovative Solutions with the Best in Modern Software Development"
+  },
+  "header": {
+    "Menu": " Menu ",
+    "Home": " Home",
+    "ourServices": "Our Services",
+    "About": " About Us",
+    "contact": "Contact Us",
+    "title": "Build Your Dream Software ",
+    "description": "Today",
+    "blog": "Blog"
+  },
+
+  "HeroHome": {
+    "title-Meta": "Spike Code - Modern software company",
+    "description-Meta": "Crafting Innovative Solutions with the Best in Modern Software Development",
+    "title": "Build Your Dream Software ",
+    "Today": "Today",
+    "sub-title": "Crafting Innovative Solutions with the Best in Modern Software Development",
+    "contact": "Contact us",
+    "learn-More": "Learn more about us",
+    "withSpikeCode": {
+      "text0": "with SpikeCode",
+      "text1": " --We believe in turning dreams into reality.",
+      "text2": "--With a talented team of engineers, designers, and project managers.",
+      "text3": " --We are equipped to tackle any software challenge you may have.",
+      "text4": "Whether you are looking to build a cutting-edge web application, a  robust mobile app, or a scalable backend system.",
+      "text5": " --we have the expertise and the tools to bring your vision to life. From ideation to deployment.",
+      "text6": "we will guide you through every step of the process.",
+      "text7": "we are always striving for excellence and innovation in delivering our customized solutions and services, as our contribution to the success of our clients is a fundamental driver for our continuous growth and development."
+    }
+  },
+  "Services": {
+    "title-Meta": "Our Services",
+    "description-Meta": "Software solutions specifically designed to meet your unique business needs and fuel your growth.",
+    "title": "Our Services",
+    "title2": "Our Departments",
+    "more": "Learn more",
+    "sub-title": "We are a team of experts in developing innovative software solutions, specifically designed to ensure the growth and success of your business. We understand the importance of digital transformation and focus on providing software products and services that meet your needs and help you excel in the market.",
+    "ourServicesGrid": {
+      "WebDevelopment": "Web Development",
+      "WebDevelopmentText": "We create websites that captivate your audience and drive the growth of your business. Our team of experienced experts and skilled developers ensures the creation of a comprehensive and cutting-edge website...",
+      "MobileApp": "Mobile App Development",
+      "MobileAppText": "We are committed to delivering an effective mobile app that meets your customer's expectations and contributes to the success of your business including attractive design vibrant user interface and seamless integration with your core business systems..",
+      "hosting": "Web App Hosting",
+      "hostingText": "Whether you are looking for web hosting or web application hosting we offer tailored solutions to ensure the long-term stability and performance of your online presence..",
+      "UIUX": "UI/UX Design",
+      "UIUXText": "Through our User Interface (UI) and User Experience (UX) design services, we can help you deliver exceptional user experiences and visually stunning interfaces. Our team combines the best practices of creativity and research to create unique and captivating designs..",
+      "Desktop": "Desktop App Development ",
+      "DesktopText": "We design and develop customized solutions for computer applications. The process begins with analyzing requirements, followed by implementing the system or application, and providing ongoing technical support.",
+      "AdministrativeSystems": " Administrative Systems",
+      "AdministrativeSystemsText": "We offer integrated systems for managing human resources, inventory, sales, and accounting. We also provide tools for data analysis, which help organize work and increase productivity.",
+      "ITSupport": "IT Support",
+      "ITSupportText": "We offer a range of services aimed at helping individuals or organizations solve technical problems related to information technology. This includes a wide range of activities and services..."
+    },
+
+    "web-development": {
+      "title": "Web Development Services",
+      "sub-title": " we provide comprehensive web development services aimed at meeting our clients' needs and achieving their business goals. We believe that having a professional website is the foundation of success in the digital age, which is why we offer innovative and unique solutions.",
+      "questions": "Why Choose Spike Code for Web Development?",
+      "timeline-elements": {
+        "Custom-Design": "Custom Design",
+        "textCustom-Design": "We provide custom designs that align with your brand identity and meet the needs of your target audience, creating a seamless and engaging user experience.",
+        "Responsive-Development": "Responsive Development",
+        "textResponsive-Development": "We ensure that our websites are responsive, meaning they work perfectly on all devices, including smartphones, tablets, and desktops.",
+        "Modern-Technologies": "Modern Technologies",
+        "textModern-Technologies": "We use the latest technologies and frameworks such as HTML5, CSS3, JavaScript, and PHP, along with content management systems like WordPress and Drupal to deliver high-performance websites.",
+        "Search-Engine-Optimization": "Search Engine Optimization (SEO)",
+        "textSearch-Engine-Optimization": "We focus on optimizing our sites for search engines to ensure they appear on the first pages of search results, increasing the chances of reaching a wider audience.",
+        "Data-Security": "Data Security",
+        "textData-Security": "We place great importance on information security and data protection. We apply best practices and technologies to ensure the safety of your site and your users' information.",
+        "Support-and-Maintenance": "Support and Maintenance",
+        "textSupport-and-Maintenance": "We offer technical support and ongoing maintenance services to ensure your site runs smoothly without interruptions. We are here to assist you with any issues you may face post-launch.",
+        "Performance-Analysis": "Performance Analysis",
+        "textPerformance-Analysis": "We regularly analyze the site's performance and provide detailed reports to help you understand visitor behavior and improve your marketing strategies."
+      },
+      "more": {
+        "Include": "Our Services Include:",
+        "text0": " Development of dynamic and static websites.",
+        "text1": "Creation of e-commerce stores.",
+        "text2": "Development of web applications.",
+        "text3": "Redesign and update of existing sites.",
+        "text4": "System and database integration."
+      }
+    },
+    "Web-Application-Hosting": {
+      "title": "Web Application Hosting ",
+      "sub-title": " we offer a web application hosting service that ensures the efficient and secure operation of your applications. We believe that reliable and fast hosting is the foundation for the success of any web application, and therefore, we provide customized solutions that meet our clients' needs.",
+      "questions": "Why Choose Spike Code for Web Application Hosting?",
+      "timeline-elements": {
+        "High-Performance-and-Reliability": "High Performance and Reliability",
+        "textHigh-Performance-and-Reliability": "We use advanced servers and modern technologies to ensure high performance and continuous availability of your applications. We work on improving loading speed and reducing downtime to ensure an excellent user experience.",
+        "Advanced-Security": "Advanced Security",
+        "textAdvanced-Security": "We prioritize the security of your data. We offer a range of security measures, including firewalls, data encryption, and regular backups to protect your applications from threats.",
+        "Technical-Support": "24/7 Technical Support",
+        "textTechnical-Support": "Our technical support team is available around the clock to assist you with any inquiries or issues you may encounter. We are here to ensure that everything runs smoothly and without interruption.",
+        "Scalability": "Scalability",
+        "textScalability": "We provide flexible hosting options that allow you to easily scale your resources according to your application's needs. Whether you need additional resources during marketing campaigns or increased user numbers, we offer suitable solutions.",
+        "Easy-Management": "Easy Management",
+        "textEasy-Management": "We offer an easy-to-use control panel that allows you to manage your applications with ease. You can monitor performance, manage databases, and adjust settings effortlessly.",
+        "Integration-with-Other-Services": "Integration with Other Services",
+        "textIntegration-with-Other-Services": "We provide integration options with a wide range of external services and tools, making it easy for you to connect your application with other systems and increase its efficiency.",
+        "Advanced-Analytics": "Advanced Analytics",
+        "textAdvanced-Analytics": "We provide you with analytical tools to monitor your application's performance and understand user behavior. This information helps you make strategic decisions to improve user experience and increase application effectiveness."
+      }
+    },
+    "Desktop-App-Development": {
+      "title": "Desktop App Development",
+      "sub-title": "In the era of modern technology, desktop applications continue to play a vital role in many industries. At Spike Code, we offer customized desktop application development services that meet our clients' needs and help them achieve their business goals.",
+      "questions": "Why Choose Spike Code for Desktop App Development?",
+      "timeline-elements": {
+        "Requirements-Analysis": "Requirements Analysis",
+        "textRequirements-Analysis": "We begin by understanding your needs and objectives through intensive consulting sessions to ensure the application is designed to meet your requirements.",
+        "User-Interface-and-User-Experience-Design": "User Interface (UI) and User Experience (UX) Design",
+        "textUser-Interface-and-User-Experience-Design": "We focus on designing attractive and user-friendly interfaces, ensuring a seamless experience for users.",
+        "Application-Development": "Application Development",
+        "textApplication-Development": "We utilize modern technologies and advanced programming languages such as C#, Java, Python, and Electron to develop reliable and scalable applications.",
+        "Quality-Testing": "Quality Testing",
+        "textQuality-Testing": "We conduct comprehensive testing to ensure that the application functions perfectly, is free of errors, and meets the desired performance standards.",
+        "Integration-with-Other-Systems": "Integration with Other Systems",
+        "textIntegration-with-Other-Systems": "We assist in integrating desktop applications with other systems, such as databases and cloud systems, to ensure smooth data flow.",
+        "Support-and-Maintenance": "Support and Maintenance",
+        "textSupport-and-Maintenance": "We provide ongoing technical support and maintenance for applications to ensure they continue to operate efficiently and are updated as needed."
+      }
+    },
+    "mobile-app-development": {
+      "title": "Mobile App Development",
+      "sub-title": "we offer mobile app development services that help companies reach a wider audience and enhance their brand engagement. We understand the importance of having a custom app in today's digital world and are committed to providing innovative solutions that meet our clients' needs.",
+      "questions": "Why Choose Spike Code for Mobile App Development?",
+      "timeline-elements": {
+        "Attractive-User-Interface-Design": "Attractive User Interface Design",
+        "textAttractive-User-Interface-Design": "We focus on designing visually appealing user interfaces that ensure a smooth and easy user experience. Our team of designers works on creating apps that reflect your brand identity.",
+        "Cross-Platform-Development": "Cross-Platform Development",
+        "textCross-Platform-Development": "We provide app development services that work on different operating systems, including iOS and Android, ensuring your app reaches the widest possible audience.",
+        "Modern-Technologies": "Modern Technologies",
+        "textModern-Technologies": "We use the latest technologies and frameworks like React Native, Flutter, Swift, and Kotlin to develop high-performance, responsive apps.",
+        "Performance-Optimization": "Performance Optimization",
+        "textPerformance-Optimization": "We work on optimizing app performance to ensure fast loading times and quick user response, enhancing user experience and increasing app retention rates.",
+        "Security-and-Data-Protection": "Security and Data Protection",
+        "textSecurity-and-Data-Protection": "We prioritize app security and user data protection. We implement best practices and technologies to ensure information safety and protection from threats.",
+        "Support-and-Maintenance": "Support and Maintenance",
+        "textSupport-and-Maintenance": "We offer technical support and continuous maintenance services to ensure your app runs smoothly post-launch. We are here to assist with any inquiries or issues you may encounter.",
+        "Data-Analysis": "Data Analysis",
+        "textData-Analysis": "We provide analytical tools to help you understand user behavior within the app, enabling data-driven decisions to improve user experience and increase engagement."
+      }
+    },
+    "Electronic-Systems": {
+      "title": "Data Analysis, Electronic Systems, and ERP Services",
+      "sub-title": "we believe that data is the heart of any successful business. Through our advanced data analysis services, innovative electronic systems, and Enterprise Resource Planning (ERP) solutions, we provide comprehensive solutions that help companies enhance performance and increase efficiency.",
+      "questions": "Why Choose Spike Code for Data Analysis and Electronic Systems Development like ERP?",
+      "timeline-elements": {
+        "Data-Collection": "Data Collection",
+        "textData-Collection": "We assist you in gathering data from multiple sources, whether internal or external.",
+        "Data-Analysis": "Data Analysis",
+        "textData-Analysis": "Using advanced tools and techniques, we analyze data to uncover important patterns and trends that can impact your business.",
+        "Data-Visualization": "Data Visualization",
+        "textData-Visualization": "We provide clear and easy-to-understand visual reports that help you make informed decisions.",
+        "Forecasting-and-Predictive-Analysis": "Forecasting and Predictive Analysis",
+        "textForecasting-and-Predictive-Analysis": "We utilize predictive analysis techniques to help you anticipate future trends and improve business strategies.",
+        "Design-and-Development-Of-System": "Design and Development of Electronic Systems",
+        "textDesign-and-Development-Of-System": "We help you develop electronic systems tailored to your specific business needs, enhancing operational efficiency.",
+        "System-Integration": "System Integration",
+        "textSystem-Integration": "We work on integrating electronic systems with other applications to ensure a seamless flow of data and improved efficiency."
+      }
+    },
+    "IT-Support-Service": {
+      "title": "IT Support Service",
+      "sub-title": "We provide IT support services aimed at delivering comprehensive solutions for technical issues that individuals or organizations may encounter. This service includes a variety of activities to ensure business continuity and the efficiency of technological systems. It enhances work efficiency by contributing to reducing downtime and increasing productivity, as well as protecting data against risks.",
+      "questions": "Why Choose Spike Code for IT Support Service?",
+      "timeline-elements": {
+        "Technical-Issue-Resolution": "Technical Issue Resolution",
+        "textTechnical-Issue-Resolution": "Providing immediate support to resolve any technical issues related to networks, software, or hardware to reduce downtime and increase productivity.",
+        "Maintenance-and-Support": "Maintenance and Support",
+        "textMaintenance-and-Support": "Conducting regular maintenance on hardware and software and updating systems periodically to ensure systems operate efficiently and reduce malfunctions.",
+        "Network-Management": "Network Management",
+        "textNetwork-Management": "Monitoring networks to ensure their stability and security, as well as setting up wireless and wired networks to improve network performance and reduce security risks.",
+        "User-Training": "User Training",
+        "textUser-Training": "Offering training courses for users on how to use software and hardware correctly and effectively to enhance employee skills and increase work efficiency.",
+        "Data-Recovery": "Data Recovery",
+        "textData-Recovery": "Assisting users in recovering lost or damaged data to protect valuable information and ensure important data is not lost.",
+        "Remote-Support": "Remote Support",
+        "textRemote-Support": "Utilizing advanced tools to provide technical support remotely without the need for physical presence, saving time and effort for both users and technicians.",
+        "Information-Systems-Management": "Information Systems Management",
+        "textInformation-Systems-Management": "Supporting the management of systems and applications used within the organization to ensure system integration and smooth operations.",
+        "Incident-Handling": "Remote Support",
+        "textIncident-Handling": "Rapid response to security or technical incidents and handling them efficiently to reduce damage and protect sensitive information."
+      }
+    },
+    "UI/UX-Design": {
+      "title": "User Interface and User Experience Design (UI/UX Design)",
+      "sub-title": "we believe that User Interface (UI) and User Experience (UX) design are the heart of any successful digital product. We strive to create seamless and enjoyable experiences that make users love interacting with your products.",
+      "questions": "Why Choose Spike Code for UI/UX Design?",
+      "timeline-elements": {
+        "Deep-User-Understanding": "Deep User Understanding",
+        "textDeep-User-Understanding": "We begin every project by delving deep into your users' needs. Through meticulous market research and user interviews, we gather the insights necessary to design experiences that not only meet but exceed their expectations.",
+        "Beautiful-and-Functional-Design": "Beautiful and Functional Design",
+        "textBeautiful-and-Functional-Design": "We believe that great design is both visually appealing and highly functional. Our talented team of designers creates interfaces that are as delightful to look at as they are easy to use, enhancing the overall user experience.",
+        "Seamless-User-Journeys": "Seamless User Journeys",
+        "textSeamless-User-Journeys": "We focus on creating simple and intuitive user flows, making it effortless for users to find the information and features they need. By optimizing the interaction between users and your application, we ensure a smooth and enjoyable experience.",
+        "Continuous-Testing-and-Refinement": "Continuous Testing and Refinement",
+        "textContinuous-Testing-and-Refinement": "We conduct regular usability tests to evaluate the user experience. By gathering user feedback, we can refine and improve our designs to deliver optimal results.",
+        "Responsive-Design": "Responsive Design",
+        "textResponsive-Design": "We guarantee that our designs work flawlessly across all devices and screen sizes, from smartphones and tablets to desktops. Responsive design ensures a consistent user experience regardless of the device being used.",
+        "Close-Collaboration": "Close Collaboration",
+        "textClose-Collaboration": "We offer our clients a unique collaboration experience characterized by flexibility and comprehensive support. We do not only participate in the project implementation stages, but also ensure them the flexibility needed to meet their changing needs. We also provide them with the necessary support after delivery to ensure the continued success of the project and to achieve maximum benefit from it.",
+        "Innovative-Solutions": "Innovative Solutions",
+        "textInnovative-Solutions": "We leverage the latest design trends and technologies to provide you with innovative solutions that set you apart from the competition. We're always exploring new ways to enhance the user experience and make your applications more engaging."
+      }
+    }
+  },
+  "Products": {
+    "title": "Our Products",
+    "sub-title": "At Spikecode, we are committed to providing innovative software products that empower businesses to thrive in a competitive landscape."
+  },
+  "testiminals": {
+    "letter": "Our team is committed to achieving exceptional results and we work closely with our clients to understand their needs and the unique challenges they face, paying attention to the finest details. We integrate their skills in creating products and software solutions that fulfill the core of our objectives."
+  },
+  "contactComponent": {
+    "title-Meta": "Contact us",
+    "description-Meta": "Let us know how we can help.",
+    "getinTouch": "Get In Touch",
+    "text": "We welcome the opportunity to discuss your business needs and how we can assist.",
+    "fullname": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "companyOrperson": "Company or Person",
+    "company": "Company",
+    "person": "Person",
+    "message": "Message",
+    "capatcha": "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.",
+    "submit": "send",
+    "titleContact": "Contact our friendly team",
+    "subtitleContact": "Let us know how we can help.",
+    "sales": "Chat to sales",
+    "textsales": "Speak to our friendly.",
+    "support": "Chat to support",
+    "textsupport": "we're here to help.",
+    "visit": "Visit us",
+    "textvisit": "Visit our office HQ.",
+    "call": "Call us",
+    "textcall": "Sat-Thu from 10am to 6pm",
+    "ready": "Ready to level up your business?",
+    "ready1": "We are here to help you achieve the success you deserve.",
+    "number": "+963 930 180 758"
+  },
+  "footer": {
+    "company": "Company",
+    "allright": "spikecode.net - All rights reserved.",
+
+    "social": "Social",
+    "Terms": "Terms of service",
+    "Privacy": "Privacy Policy",
+    "cookie": "Cookie Preference",
+    "about": "About Us",
+    "blog": "Blog",
+    "career": "Careers",
+    "Resources": "Resources"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ar {🇩🇪 arabic} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Priv": {
+    "Privacy": "Policy Privacy",
+    "textPrivacy1": "At Spike, we are committed to protecting your privacy and ensuring the security of your personal information. This policy explains how we collect, use, disclose, and protect your data when you use our products and services, including our website and applications.",
+    "Collect": "Information We Collect:",
+    "text2": "We collect various types of information from users to provide our services and improve them. This information may include:",
+    "Personal": "Personal Information:",
+    "text3": "Name, email address, phone number, address payment information, and other information you voluntarily provide when registering or using our services.",
+    "data": "Usage Data:",
+    "text4": "Information about how you interact with our services, such as the pages you visit, the features you use, and the amount of time you spend using each feature.",
+    "Device": "Device Data:",
+    "text5": "Information about the device you use to access our services, such as the device type and operating system.",
+    "Location": "Location Data:",
+    "text6": " We may collect information about your geographic location if you allow us to do so.",
+    "Use": "How We Use Your Information",
+    "text7": "We use the information we collect for the following purposes:",
+    "Providing": "Providing Our Services:",
+    "text8": "provide our requested services, such as creating an account, managing your requests, and providing technical support.",
+    "Improving": "Providing Our Services:",
+    "text9": "provide our requested services, such as creating an account, managing your requests, and providing technical support.",
+    "Communicating": "Communicating with You:",
+    "text10": "To send important messages, such as update notifications, order confirmations, and support messages.",
+    "Marketing": "Marketing:",
+    "text11": "To send promotional offers and personalized marketing messages, subject to your consent. You may unsubscribe at any time.",
+
+    "Sharing": "Sharing Information",
+    "text12": "We are committed to protecting your privacy and will not share your personal information with third parties except in the following circumstances:",
+    "Suppliers": "Suppliers:",
+    "text13": "We may share your information with trusted suppliers to help us provide our services, such as payment and email companies.",
+    "Legal": "Legal Protection:",
+    "text14": "We may disclose your information if required by law or to respond to legal requests.",
+    "Merger": "Merger or Acquisition:",
+    "text15": "In the event that our company is merged or acquired, your information may be transferred as part of that transaction.",
+    "Security": "Information Security",
+    "text16": "We implement strong security measures to protect your information from unauthorized access, modification, disclosure, or destruction. However, no information can be guaranteed to be completely secure online.",
+    "cookies": "Cookies",
+    "text17": "We use cookies to improve your experience using our site. You can manage your cookie preferences through your browser settings.",
+    "Links": "Links to Other Sites",
+    "text18": "Our site may contain links to other websites and services. We are not responsible for the privacy practices of those sites.",
+    "Changes": "Changes to This Policy",
+    "text19": "We reserve the right to modify this policy at any time. We will post any changes to this page.",
+    "Contactus": "Contact Us",
+    "text20": "If you have any questions about this policy, please contact us at support@spikecode.net"
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "introduction": "Please read these Terms and Conditions carefully before using our service.",
+    "definitions": {
+      "terms_and_conditions": "Terms and Conditions (also referred to as the Terms) means these Terms and Conditions that fully govern the relationship between you and us regarding the use of the Service.",
+      "social_media_service": "Social Media Service means any service or (including data, information, products, or services) provided by a third-party that can be displayed, engaged, or made available through the Service.",
+      "website": "Website means spikecode.net, which can be accessed from https://www.spikecode.net/.",
+      "you": "You means the individual accessing or using the Service, or the company or any other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
+    },
+    "body": "These are the Terms and Conditions that govern the use of this Service and the strict agreement between you and us. These Terms and Conditions outline the rights and obligations of all users regarding the use of the Service.\n\nYour access to the Service is conditioned on your acceptance and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service.\n\nBy accessing or using the Service, you agree to be bound by these Terms.",
+    "contact_us": "If you have any questions about these Terms and Conditions, you can contact us:\n• By email: support@spikecode.net"
+  },
+  "form": {
+    "email": "Enter your email address ..",
+    "phone": "Enter your phone number .. ",
+    "user_name": "Enter your full name ..",
+    "message": "Enter your message ..",
+    "replay_message": "Thank you for your message, we will contact you soon.",
+    "send": "Your message has been sent successfully",
+    "ok": "Ok"
+  },
+  "blog": {
+    "blog": "Blogs",
+    "title": "Towards a Better Digital World",
+    "subtitle": "Discover the world of software with us! We offer you the latest technologies and best practices to help you achieve your goals."
+  },
+  "NotFoundPage": {
+    "description": "But dont worry, you can find plenty of other things on our homepage.",
+    "title": "Sorry, we couldn't find this page.",
+    "Home": "   Back to Home page"
+  },
+  "Error": {
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
+  }
+}
