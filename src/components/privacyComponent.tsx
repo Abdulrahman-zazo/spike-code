@@ -4,7 +4,7 @@ function PrivacyComponent() {
   const { t } = useTranslation();
   return (
     <div className="w-5/6 m-auto my-10 ">
-      <h1 className=" mb-6 text-center  border-y text-xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-2xl [&:lang(en)]:font-inter [&:lang(ar)]:font-almarai  ">
+      <h1 className=" mb-6 text-center  border-y text-xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-2xl    ">
         {t("Priv.Privacy")}
       </h1>
       <p>{t("Priv.textPrivacy1")}</p>

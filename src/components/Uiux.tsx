@@ -5,9 +5,9 @@ function Uiux() {
   const { t } = useTranslation();
   return (
     <div className=" max-[600px]:pb-4 sm:pb-2 sm:pt-40 md:pt-40">
-      <div className="relative overflow-hidden  p-10 max-[600px]:pt-16 [&:lang(ar)]:font-almarai [&:lang(en)]:font-inter">
+      <div className="relative overflow-hidden  p-10 max-[600px]:pt-16   ">
         <div className="m-auto my-10 w-5/6  max-[600px]:w-full ">
-          <h1 className="mb-6 border-y text-center text-xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] max-[600px]:text-2xl md:text-5xl md:leading-snug [&:lang(ar)]:font-almarai  [&:lang(en)]:font-inter">
+          <h1 className="mb-6 text-center text-xl font-bold  max-[600px]:text-2xl md:text-5xl md:leading-snug ">
             {t("Services.UI/UX-Design.title")}
           </h1>
           <p className="p-1 text-center ">
@@ -25,12 +25,8 @@ function Uiux() {
       lg:pt-8 "
         >
           {/* custom desgin */}
-          <div
-            className="relative p-4  "
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -57,13 +53,8 @@ function Uiux() {
 
           {/* Responsive Development */}
           <div />
-          <div
-            className="relative p-4 "
-            data-aos="fade-left"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -85,12 +76,8 @@ function Uiux() {
             </p>
           </div>
           {/* Modern-Technologies */}
-          <div
-            className="relative p-4 "
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -115,13 +102,8 @@ function Uiux() {
           <div />
           <div />
           {/* Search-Engine-Optimization" */}
-          <div
-            className="relative p-4 "
-            data-aos="fade-left"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -147,13 +129,8 @@ function Uiux() {
 
           {/* Data-Security */}
 
-          <div
-            className="relative p-4 "
-            data-aos="fade-right"
-            data-aos-delay="400"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -177,13 +154,8 @@ function Uiux() {
           <div />
           <div />
 
-          <div
-            className="relative p-4 "
-            data-aos="fade-left"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -207,13 +179,8 @@ function Uiux() {
           {/* Performance-Analysis */}
           <div />
           <div />
-          <div
-            className="relative p-4 "
-            data-aos="fade-right"
-            data-aos-delay="400"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}

@@ -7,9 +7,9 @@ function ItSupport() {
 
   return (
     <div className=" max-[600px]:pb-4 sm:pb-2 sm:pt-40 md:pt-40">
-      <div className="relative overflow-hidden  p-10 max-[600px]:pt-16 [&:lang(ar)]:font-almarai [&:lang(en)]:font-inter">
-        <div className="m-auto my-10 w-5/6  max-[600px]:w-full ">
-          <h1 className="mb-6 border-y  text-center text-xl font-bold leading-4 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] max-[600px]:text-2xl md:text-5xl [&:lang(ar)]:font-almarai  [&:lang(en)]:font-inter">
+      <div className="relative overflow-hidden  p-10 max-[600px]:pt-16   ">
+        <div className="m-auto my-10 md:my-2 w-5/6  max-[600px]:w-full ">
+          <h1 className="mb-6  text-center text-xl font-bold leading-4  max-[600px]:text-2xl md:text-5xl">
             {t("Services.IT-Support-Service.title")}
           </h1>
           <p className="p-1 text-center ">
@@ -27,12 +27,8 @@ function ItSupport() {
       lg:pt-8 "
         >
           {/* custom desgin */}
-          <div
-            className="relative p-4  "
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -59,13 +55,8 @@ function ItSupport() {
 
           {/* Responsive Development */}
           <div />
-          <div
-            className="relative p-4 "
-            data-aos="fade-left"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -87,12 +78,8 @@ function ItSupport() {
             </p>
           </div>
           {/* Modern-Technologies */}
-          <div
-            className="relative p-4 "
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -117,13 +104,8 @@ function ItSupport() {
           <div />
           <div />
           {/* Search-Engine-Optimization" */}
-          <div
-            className="relative p-4 "
-            data-aos="fade-left"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -149,13 +131,8 @@ function ItSupport() {
 
           {/* Data-Security */}
 
-          <div
-            className="relative p-4 "
-            data-aos="fade-right"
-            data-aos-delay="400"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -181,13 +158,8 @@ function ItSupport() {
           <div />
           <div />
 
-          <div
-            className="relative p-4 "
-            data-aos="fade-left"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -211,13 +183,8 @@ function ItSupport() {
           {/* Performance-Analysis */}
           <div />
           <div />
-          <div
-            className="relative p-4 "
-            data-aos="fade-right"
-            data-aos-delay="400"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}
@@ -242,13 +209,8 @@ function ItSupport() {
           {/* Support-and-Maintenance */}
           <div />
           <div />
-          <div
-            className="relative p-4 "
-            data-aos="fade-left"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <div className=" flex place-items-start gap-4 rounded-full text-sm font-bold text-white">
+          <div className="relative p-4 ">
+            <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
               <img
                 alt="coustom desgin"
                 height={35}

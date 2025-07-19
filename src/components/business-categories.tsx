@@ -1,7 +1,7 @@
 export default function BusinessCategories() {
   return (
     <section className="max-[600px]:hidden">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="max-w-6xl px-4 mx-auto sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* Tab panels */}
           <div className="relative flex h-[324px] items-center justify-center ">
@@ -151,8 +151,8 @@ export default function BusinessCategories() {
               </svg>
             </div>
             {/* Horizontal lines */}
-            <div className="absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply" />
-            <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply" />
+            <div className="absolute inset-x-0 top-0 h-px -z-10 bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply" />
+            <div className="absolute inset-x-0 bottom-0 h-px -z-10 bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply" />
             <div className="absolute inset-x-[200px] top-1/2 -z-10 h-px bg-gradient-to-r from-transparent via-blue-500/60 to-transparent mix-blend-multiply" />
             <div className="absolute inset-x-0 top-1/2 -z-10 h-px -translate-y-[82px] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_both] before:bg-gradient-to-r before:via-blue-500" />
             <div className="absolute inset-x-0 top-1/2 -z-10 h-px translate-y-[82px] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_5s_both] before:bg-gradient-to-r before:via-blue-500" />
@@ -171,7 +171,7 @@ export default function BusinessCategories() {
                     className="relative"
                     height={32}
                     src={
-                      "https://blogsbackend.spikecode.net/website/img/logo_icon.webp"
+                      "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937908/logo_icon_kvpwpk.webp"
                     }
                     width={32}
                   />
@@ -189,7 +189,7 @@ export default function BusinessCategories() {
                         className="relative"
                         height={22}
                         src={
-                          "https://blogsbackend.spikecode.net/website/img/Php.webp"
+                          "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937892/Php_cwmu2a.webp"
                         }
                         width={23}
                       />
@@ -204,7 +204,7 @@ export default function BusinessCategories() {
                         className="relative"
                         height={22}
                         src={
-                          "https://blogsbackend.spikecode.net/website/img/html.webp"
+                          "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937907/html_yjdhk2.webp"
                         }
                         width={22}
                       />
@@ -219,7 +219,7 @@ export default function BusinessCategories() {
                         className="relative"
                         height={22}
                         src={
-                          "https://blogsbackend.spikecode.net/website/img/figma.webp"
+                          "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937893/figma_tou2xe.webp"
                         }
                         width={24}
                       />
@@ -234,7 +234,7 @@ export default function BusinessCategories() {
                         className="relative"
                         height={25}
                         src={
-                          "https://blogsbackend.spikecode.net/website/img/wordpress.webp"
+                          "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937911/wordpress_audcty.webp"
                         }
                         width={25}
                       />
@@ -249,7 +249,7 @@ export default function BusinessCategories() {
                         className="relative"
                         height={18}
                         src={
-                          "https://blogsbackend.spikecode.net/website/img/JavaScript.webp"
+                          "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937898/JavaScript_r9rofw.webp"
                         }
                         width={20}
                       />
@@ -264,7 +264,7 @@ export default function BusinessCategories() {
                         className="relative"
                         height={25}
                         src={
-                          "https://blogsbackend.spikecode.net/website/img/laravel.webp"
+                          "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937898/laravel_mufn9y.webp"
                         }
                         width={25}
                       />
@@ -273,13 +273,13 @@ export default function BusinessCategories() {
                 </div>
                 <div className="absolute -translate-x-[292px] opacity-40">
                   <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
+                    <div className="flex items-center justify-center w-12 h-12 bg-white border rounded-full shadow-lg border-gray-200/60">
                       <img
                         alt="Logo 08"
                         className="relative"
                         height={20}
                         src={
-                          "https://blogsbackend.spikecode.net/website/img/React.webp"
+                          "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937908/React_bfs3hu.webp"
                         }
                         width={20}
                       />
@@ -288,13 +288,13 @@ export default function BusinessCategories() {
                 </div>
                 <div className="absolute translate-x-[292px] opacity-40">
                   <div className="animate-[breath_6s_ease-in-out_4s_infinite_both]">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200 bg-white shadow-lg">
+                    <div className="flex items-center justify-center w-12 h-12 bg-white border border-gray-200 rounded-full shadow-lg">
                       <img
                         alt="Logo 09"
                         className="relative"
                         height={13}
                         src={
-                          "https://blogsbackend.spikecode.net/website/img/NodeJs.webp"
+                          "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937893/NodeJs_iigsen.webp"
                         }
                         width={21}
                       />

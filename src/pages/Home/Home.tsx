@@ -1,5 +1,4 @@
-// import { Helmet } from "react-helmet-async";
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import Header from "../../components/Header";
 import HeroHome from "../../components/hero-home";
 import BusinessCategories from "../../components/business-categories";
@@ -10,19 +9,17 @@ import Cta from "../../components/cta";
 import Footer from "../../components/ui/footer";
 
 function Home() {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
       <Header />
-      {/* <Helmet>
-        <title>{t("HeroHome.title-Meta")}</title>
-        <meta name="description" content={t("HeroHome.description-Meta")} />
-        <link
-          rel="apple-touch-icon"
-          href={"https://blogsbackend.spikecode.net/website/img/logo-ico.ico"}
-        />
-      </Helmet> */}
+      <title>{t("HeroHome.title-Meta")}</title>
+      <meta name="description" content={t("HeroHome.description-Meta")} />
+      <link
+        rel="apple-touch-icon"
+        href={"https://blogsbackend.spikecode.net/website/img/logo-ico.ico"}
+      />
       <HeroHome />
       <BusinessCategories />
       <FeaturesPlanet />

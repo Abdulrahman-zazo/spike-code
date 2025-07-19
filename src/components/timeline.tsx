@@ -5,12 +5,12 @@ function Timeline() {
   const { t } = useTranslation();
 
   return (
-    <div className="relative p-10  max-[600px]:pt-16 overflow-hidden [&:lang(en)]:font-inter [&:lang(ar)]:font-almarai">
+    <div className="relative p-10  max-[600px]:pt-16 overflow-hidden  ">
       <div className="w-5/6 m-auto my-10  max-[600px]:w-full ">
-        <h1 className="mb-6 text-center  border-y text-xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-5xl [&:lang(en)]:font-inter [&:lang(ar)]:font-almarai leading-4  max-[600px]:text-2xl">
+        <h1 className="mb-6 text-center  border-y text-xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-5xl   leading-4  max-[600px]:text-2xl">
           {t("Services.web-development.title")}
         </h1>
-        <p className="text-center p-1 ">
+        <p className="p-1 text-center ">
           {t("Services.web-development.sub-title")}
         </p>
       </div>
@@ -25,12 +25,8 @@ function Timeline() {
       max-[600px]:w-80 "
       >
         {/* custom desgin */}
-        <div
-          className="relative p-4  "
-          data-aos="fade-right"
-          data-aos-duration="1000"
-        >
-          <div className=" flex place-items-start gap-4 rounded-full text-white text-sm font-bold">
+        <div className="relative p-4 ">
+          <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
             <img
               src={
                 "https://blogsbackend.spikecode.net/website/img/icons/custom.webp"
@@ -53,13 +49,8 @@ function Timeline() {
 
         {/* Responsive Development */}
         <div></div>
-        <div
-          className="relative p-4 "
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-delay="200"
-        >
-          <div className=" flex place-items-start gap-4 rounded-full text-white text-sm font-bold">
+        <div className="relative p-4 ">
+          <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
             <img
               src={
                 "https://blogsbackend.spikecode.net/website/img/icons/Responsive.webp"
@@ -81,12 +72,8 @@ function Timeline() {
           </p>
         </div>
         {/* Modern-Technologies */}
-        <div
-          className="relative p-4 "
-          data-aos="fade-right"
-          data-aos-duration="1000"
-        >
-          <div className=" flex place-items-start gap-4 rounded-full text-white text-sm font-bold">
+        <div className="relative p-4 ">
+          <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
             <img
               src={
                 "https://blogsbackend.spikecode.net/website/img/icons/Modern-Technologies.webp"
@@ -111,13 +98,8 @@ function Timeline() {
         <div></div>
         <div></div>
         {/* Search-Engine-Optimization" */}
-        <div
-          className="relative p-4 "
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-delay="200"
-        >
-          <div className=" flex place-items-start gap-4 rounded-full text-white text-sm font-bold">
+        <div className="relative p-4 ">
+          <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
             <img
               src={
                 "https://blogsbackend.spikecode.net/website/img/icons/Search-Engine-Optimization.webp"
@@ -143,13 +125,8 @@ function Timeline() {
 
         {/* Data-Security */}
 
-        <div
-          className="relative p-4 "
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-delay="400"
-        >
-          <div className=" flex place-items-start gap-4 rounded-full text-white text-sm font-bold">
+        <div className="relative p-4 ">
+          <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
             <img
               src={
                 "https://blogsbackend.spikecode.net/website/img/icons/Data-Security.webp"
@@ -171,13 +148,8 @@ function Timeline() {
         <div></div>
         <div></div>
 
-        <div
-          className="relative p-4 "
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-delay="200"
-        >
-          <div className=" flex place-items-start gap-4 rounded-full text-white text-sm font-bold">
+        <div className="relative p-4 ">
+          <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
             <img
               src={
                 "https://blogsbackend.spikecode.net/website/img/icons/Support-and-Maintenance.webp"
@@ -202,13 +174,8 @@ function Timeline() {
         <div></div>
         <div></div>
 
-        <div
-          className="relative p-4 "
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-delay="400"
-        >
-          <div className=" flex place-items-start gap-4 rounded-full text-white text-sm font-bold">
+        <div className="relative p-4 ">
+          <div className="flex gap-4 text-sm font-bold text-white rounded-full place-items-start">
             <img
               src={
                 "https://blogsbackend.spikecode.net/website/img/icons/Performance-Analysis.webp"

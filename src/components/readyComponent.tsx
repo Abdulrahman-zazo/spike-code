@@ -6,32 +6,17 @@ function ReadyComponent() {
   const { t } = useTranslation();
 
   return (
-    <div
-      className="relative overflow-hidden rounded-2xl text-center shadow-sm before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl  my-8 bg-gray-900"
-      data-aos="zoom-y-out"
-    >
-      <div className=" p-8 md:my-8 max-[600px]:my-10 sm:h-[500px]  w-full text-center md:pb-16  [&:lang(en)]:font-inter [&:lang(ar)]:font-almarai ">
+    <div className="relative my-8 overflow-hidden text-center bg-gray-900 shadow-sm rounded-2xl before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl">
+      <div className=" p-8 md:my-8 max-[600px]:my-10 sm:h-[500px]  w-full text-center md:pb-16    ">
         <div className="relative sm:w-80 ">
           <div className=" bg-gray-900  sm:absolute sm:-top-16  md:h-[500px] md:w-[900px] max-[600px]:h-72  max-[600px]:w-full max-[600px]:m-auto  [&:lang(en)]:-right-[500px] sm:[&:lang(ar)]:-left-[500px]  z-10 flex flex-col  items-center justify-center sm:p-10  max-[600px]:p-4 m-10 rounded-lg ">
-            <h1
-              className="mb-6 p-4  max-[600px]:leading-8 border-y text-xl font-bold text-gray-50 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-4xl [&:lang(en)]:font-inter [&:lang(ar)]:font-almarai sm:leading-4"
-              data-aos="zoom-y-out"
-              data-aos-delay={150}
-            >
+            <h1 className="mb-6 p-4  max-[600px]:leading-8 border-y text-xl font-bold text-gray-50 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-4xl   sm:leading-4">
               {t("contactComponent.ready")}
             </h1>
-            <div className="mb-8 mx-auto max-w-3xl [&:lang(en)]:font-inter [&:lang(ar)]:font-almarai">
+            <div className="max-w-3xl mx-auto mb-8 ">
               <div className="relative before:absolute before:inset-0 ">
-                <div
-                  className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
-                  data-aos="zoom-y-out"
-                  data-aos-delay={450}
-                >
-                  <p
-                    className=" text-lg text-gray-200"
-                    data-aos="zoom-y-out"
-                    data-aos-delay={300}
-                  >
+                <div className="max-w-xs mx-auto sm:flex sm:max-w-none sm:justify-center">
+                  <p className="text-lg text-gray-200 ">
                     {t("contactComponent.ready1")}
                   </p>
                 </div>
@@ -47,7 +32,7 @@ function ReadyComponent() {
                 })
               }
             >
-              <span className="btn w-full p-4 rounded-lg relative inline-flex items-center bg-white text-gray-800 font-semibold shadow hover:bg-gray-200 sm:ml-4 sm:w-auto">
+              <span className="relative inline-flex items-center w-full p-4 font-semibold text-gray-800 bg-white rounded-lg shadow btn hover:bg-gray-200 sm:ml-4 sm:w-auto">
                 {t("HeroHome.contact")}
               </span>
             </NavLink>

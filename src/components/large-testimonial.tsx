@@ -5,7 +5,7 @@ export default function LargeTestimonial() {
 
   return (
     <section>
-      <div className="mx-auto max-w-3xl px-4 sm:px-6">
+      <div className="max-w-3xl px-4 mx-auto sm:px-6">
         <div className="py-12 md:py-20">
           <div className="space-y-3 text-center">
             <div className="relative inline-flex">
@@ -24,7 +24,7 @@ export default function LargeTestimonial() {
               </svg>
               <img
                 src={
-                  "https://blogsbackend.spikecode.net/website/img/Group 48 (1).webp"
+                  "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937893/Group_48_1_nkolyf.webp"
                 }
                 width={48}
                 height={48}
@@ -32,7 +32,7 @@ export default function LargeTestimonial() {
               />
             </div>
 
-            <p className="text-lg font-semibold text-gray-900  [&:lang(en)]:font-inter [&:lang(ar)]:font-almarai max-[600px]:text-base">
+            <p className="text-lg font-semibold text-gray-900    max-[600px]:text-base">
               {t("testiminals.letter")}
             </p>
 

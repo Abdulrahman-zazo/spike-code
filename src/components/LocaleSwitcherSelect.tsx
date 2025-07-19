@@ -11,12 +11,14 @@ const LocaleSwitcherSelect = () => {
   const { locale, changeLanguage } = useLanguage() as LanguageContextType;
 
   return (
-    <div className="flex space-x-2 bg-gray-200 shadow-inner px-3 py-1 rounded-2xl">
+    <div className="flex px-3 py-1 space-x-2 bg-gray-200 shadow-inner rounded-2xl">
       {locale === "ar" ? (
         <button title="english" onClick={() => changeLanguage("en")}>
           <div className="flex items-center justify-around space-x-2">
             <img
-              src={"https://blogsbackend.spikecode.net/website/img/en.webp"}
+              src={
+                "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937906/en_e7ufox.webp"
+              }
               alt="English"
               width={20}
               height={20}
@@ -29,7 +31,9 @@ const LocaleSwitcherSelect = () => {
         <button title="arabic" onClick={() => changeLanguage("ar")}>
           <div className="flex items-center justify-around space-x-2">
             <img
-              src={"https://blogsbackend.spikecode.net/website/img/ar.webp"}
+              src={
+                "https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937893/ar_uiutoq.webp"
+              }
               alt="Arabic"
               width={20}
               height={20}

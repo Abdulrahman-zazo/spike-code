@@ -1,13 +1,11 @@
 import { useState } from "react";
 import axios from "axios";
 
-import { Spin } from "antd";
 import { Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
 import { useTranslation } from "react-i18next";
-import { RiMailSendLine } from "react-icons/ri";
-import { CgCircleci } from "react-icons/cg";
+import { Loader, Mail } from "lucide-react";
 
-const ContactForm = (color: string) => {
+const ContactForm = (color?: string) => {
   const init_form_data = {
     user_name: "",
     phone: "",
@@ -72,7 +70,7 @@ const ContactForm = (color: string) => {
         className="[&:lang(en)]:text-left [&:lang(ar)]:text-right "
       >
         <div className="space-y-12 ">
-          <div className="border-b border-gray-200 pb-6">
+          <div className="pb-6 border-b border-gray-200">
             <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 mx-auto sm:w-1/2 max-[600px]:w-full  max-[600px]:mx-auto">
               <div className="sm:col-span-3">
                 <label
@@ -172,7 +170,7 @@ const ContactForm = (color: string) => {
                   />
                 </div>
 
-                <div className="mx-auto sm:flex sm:justify-center items-center m-2 ">
+                <div className="items-center m-2 mx-auto sm:flex sm:justify-center ">
                   <button
                     title="Submit"
                     disabled={false}
@@ -181,11 +179,12 @@ const ContactForm = (color: string) => {
                   >
                     <span className="relative inline-flex items-center">
                       {loading ? (
-                        <Spin
-                          indicator={<CgCircleci />}
-                          className="text-white"
-                          size="default"
-                        />
+                        <div className="w-20 h-20">
+                          <Loader
+                            className="text-white animate-spin animate-delay-2000"
+                            size={16}
+                          />
+                        </div>
                       ) : (
                         t("contactComponent.submit")
                       )}
@@ -223,12 +222,12 @@ function Example({ isOpen, onClose }: IExample) {
   return (
     <div className="">
       <Dialog open={isOpen} onClose={onClose} className="relative z-50 ">
-        <div className="fixed inset-0 flex w-screen items-center justify-center flex-col p-4 bg-gray-400 bg-opacity-50 ">
-          <DialogPanel className="max-w-lg space-y-4 border bg-white p-12 flex flex-col items-center justify-center shadow-md rounded-2xl">
+        <div className="fixed inset-0 flex flex-col items-center justify-center w-screen p-4 bg-gray-400 bg-opacity-50 ">
+          <DialogPanel className="flex flex-col items-center justify-center max-w-lg p-12 space-y-4 bg-white border shadow-md rounded-2xl">
             <div>
-              <RiMailSendLine className="text-3xl text-blue-700" />
+              <Mail className="text-3xl text-blue-700" />
             </div>
-            <DialogTitle className="font-bold text-2xl text-center">
+            <DialogTitle className="text-2xl font-bold text-center">
               {t("form.send")}
             </DialogTitle>
             <p>{t("form.replay_message")}</p>

@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import Logo from "./ui/logo";
-import { FaBars, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
-import { IoClose } from "react-icons/io5";
+
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router";
 import LocaleSwitcherSelect from "./LocaleSwitcherSelect";
+import { Facebook, Instagram, Linkedin, Menu, X } from "lucide-react";
 
 const Header = () => {
   const [top, setTop] = useState<boolean>(true);
@@ -27,23 +27,23 @@ const Header = () => {
   const { t } = useTranslation();
 
   return (
-    <header className="fixed top-2 z-30 w-full md:top-6  [&:lang(en)]:font-inter [&:lang(ar)]:font-almarai  ">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <header className="fixed z-30 w-full top-2 md:top-6 ">
+      <div className="max-w-6xl px-4 mx-auto sm:px-6">
         <div className="relative flex  h-16 items-center justify-between gap-3 rounded-2xl bg-white/90 px-3 shadow-lg shadow-black/[0.03] backdrop-blur-sm before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(theme(colors.gray.100),theme(colors.gray.200))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
-          <div className="flex flex-1 items-center   ">
+          <div className="flex items-center flex-1 ">
             <Logo width={75} />
           </div>
 
-          <div className="flex justify-between items-center">
+          <div className="flex items-center justify-between">
             <div className="md:hidden sm:hidden lg:hidden xl:hidden">
               <LocaleSwitcherSelect />
             </div>
             <button
               title={isOpen ? "close" : "open"}
               onClick={toggleMenu}
-              className="m-2 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 lg:hidden md:hidden sm:hidden "
+              className="block px-3 py-2 m-2 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50 lg:hidden md:hidden sm:hidden "
             >
-              {isOpen ? <IoClose /> : <FaBars />}
+              {isOpen ? <X /> : <Menu />}
             </button>
             <div
               className={`flex flex-col lg:flex-row items-center justify-end gap-3 ${
@@ -54,7 +54,7 @@ const Header = () => {
             >
               <ul
                 aria-label="Global"
-                className="mx-auto m-2 flex max-w-full items-center justify-between p-6 lg:px-8 "
+                className="flex items-center justify-between max-w-full p-6 m-2 mx-auto lg:px-8 "
               >
                 <li>
                   <NavLink
@@ -66,7 +66,7 @@ const Header = () => {
                         behavior: "smooth",
                       })
                     }
-                    className="m-2 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="block px-3 py-2 m-2 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     {t("header.Home")}
                   </NavLink>
@@ -81,7 +81,7 @@ const Header = () => {
                         behavior: "smooth",
                       })
                     }
-                    className="m-2 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="block px-3 py-2 m-2 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     {t("header.ourServices")}
                   </NavLink>
@@ -96,7 +96,7 @@ const Header = () => {
                         behavior: "smooth",
                       })
                     }
-                    className="m-2 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="block px-3 py-2 m-2 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                     to={`/blog`}
                   >
                     {t("header.blog")}
@@ -112,7 +112,7 @@ const Header = () => {
                       })
                     }
                     to={`/contact`}
-                    className="m-2 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="block px-3 py-2 m-2 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     {t("header.contact")}
                   </NavLink>
@@ -147,7 +147,7 @@ const Header = () => {
                     })
                   }
                   to={``}
-                  className=" m-2 block px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="block px-3 py-2 m-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {t("header.Home")}
                 </NavLink>
@@ -162,7 +162,7 @@ const Header = () => {
                     })
                   }
                   to={`/our-services`}
-                  className=" m-2 block px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 "
+                  className="block px-3 py-2 m-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {t("header.ourServices")}
                 </NavLink>
@@ -177,7 +177,7 @@ const Header = () => {
                       behavior: "smooth",
                     })
                   }
-                  className=" m-2 block  px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 "
+                  className="block px-3 py-2 m-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   to={`/blog`}
                 >
                   {t("header.blog")}
@@ -193,45 +193,45 @@ const Header = () => {
                     })
                   }
                   to={`/contact`}
-                  className="m-2 block  px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50   "
+                  className="block px-3 py-2 m-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 "
                 >
                   {t("header.contact")}
                 </NavLink>
               </li>
             </ul>
-            <div className="space-y-2 sm:col-span-6 md:col-span-6 lg:col-span-1 flex flex-col items-center p-4 border-t-2">
+            <div className="flex flex-col items-center p-4 space-y-2 border-t-2 sm:col-span-6 md:col-span-6 lg:col-span-1">
               <ul className="flex gap-1">
                 <li>
                   <a
                     title="instagram"
                     target="_blank"
-                    className="text-xl flex items-center justify-center text-blue-500 transition hover:text-blue-600"
+                    className="flex items-center justify-center text-xl text-blue-500 transition hover:text-blue-600"
                     href="https://www.instagram.com/spike.code1/"
                     rel="noreferrer"
                   >
-                    <FaInstagram />
+                    <Instagram />
                   </a>
                 </li>
                 <li>
                   <a
                     title="linnkedin"
                     target="_blank"
-                    className="text-xl flex items-center justify-center text-blue-500 transition hover:text-blue-600"
+                    className="flex items-center justify-center text-xl text-blue-500 transition hover:text-blue-600"
                     href="https://www.linkedin.com/company/spikecode-modern-software-solutions"
                     rel="noreferrer"
                   >
-                    <FaLinkedin />
+                    <Linkedin />
                   </a>
                 </li>
                 <li>
                   <a
                     title="facebook"
                     target="_blank"
-                    className="text-xl flex items-center justify-center text-blue-500 transition hover:text-blue-600"
+                    className="flex items-center justify-center text-xl text-blue-500 transition hover:text-blue-600"
                     href="https://www.facebook.com/profile.php?id=61566742430080"
                     rel="noreferrer"
                   >
-                    <FaFacebook />
+                    <Facebook />
                   </a>
                 </li>
               </ul>

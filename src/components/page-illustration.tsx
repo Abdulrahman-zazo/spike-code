@@ -2,14 +2,14 @@ export default function PageIllustration() {
   return (
     <>
       {/* Stripes illustration */}
-      <div className="pointer-events-none absolute left-1/2 top-0 -z-10 -translate-x-1/2 transform">
-        <img
+      <div className="absolute top-0 transform -translate-x-1/2 pointer-events-none left-1/2 -z-10">
+        {/* <img
           className="max-w-none"
-          src="https://blogsbackend.spikecode.net/website/img/stripes.webp"
+          src="https://res.cloudinary.com/dmn6uzy82/image/upload/v1752937910/stripes-dark_wjrxoy.svg"
           height={400}
           width={768}
           alt="Stripes"
-        />
+        /> */}
       </div>
       {/* Circles */}
       <div className="pointer-events-none absolute -top-32 left-1/2 ml-[580px] -translate-x-1/2">

@@ -1,8 +1,7 @@
-import "aos/dist/aos.css";
 import { Route, Routes } from "react-router";
-import { LanguageProvider, useLanguage } from "./components/LanguageContext";
+import { LanguageProvider } from "./components/LanguageContext";
 import Home from "./pages/Home/Home";
-import Contact from "./components/contact";
+import Contact from "./pages/Contact/Contact";
 import NotFoundPage from "./pages/Notfound/Notfound";
 import Services from "./pages/Services/Services";
 import Desktopdevelopment from "./pages/Services/desktop-development/desktop-development";
@@ -15,6 +14,7 @@ import Webdevelopment from "./pages/Contact/Contact";
 import Terms from "./pages/Terms/Terms";
 import Privacy from "./pages/Privacy/Privacy";
 import Blogs from "./pages/Blogs/Blogs";
+import { useTranslation } from "react-i18next";
 
 const App = () => {
   return (
@@ -25,21 +25,13 @@ const App = () => {
 };
 
 const Main = () => {
-  const { locale, langDir } = useLanguage();
-  // useEffect(() => {
-  //   Aos.init({
-  //     once: true,
-  //     disable: "phone",
-  //     duration: 500,
-  //     easing: "ease-out-cubic",
-  //   });
-  // }, []);
+  const { i18n } = useTranslation();
 
   return (
     <div
-      lang={locale}
-      dir={langDir}
-      className={`[&:lang(en)]:font-inter [&:lang(ar)]:font-almarai font-inter tracking-tight text-gray-900 antialiased`}
+      lang={i18n.language}
+      dir={i18n.language === "en" ? "ltr" : "rtl"}
+      className={`  font-inter tracking-tight text-gray-900 antialiased`}
     >
       <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
         <Routes>
